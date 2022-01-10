@@ -1,0 +1,28 @@
+Package: deqc
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Chun",
+           family = "Su",
+           role = c("aut", "cre"),
+           email = "sckinta@gmail.com",
+           comment = c(ORCID = "0000-0001-6388-8666"))
+Description: Conventional functions to perform QC on sequencing data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    ggplot2,
+    ggrepel,
+    glue,
+    gridExtra,
+    magrittr,
+    purrr,
+    readr,
+    rlang,
+    tidyr,
+    tibble,
+    scales
