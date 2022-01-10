@@ -3,6 +3,7 @@
 export("%>%")
 export(count2fpkm)
 export(count2tpm)
+export(plot_pca)
 import(ggplot2)
 import(gridExtra)
 importFrom(grDevices,dev.off)

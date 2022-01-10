@@ -13,6 +13,7 @@
 #' @importFrom stats prcomp
 #' @importFrom grDevices dev.off pdf
 #' @import ggplot2 gridExtra
+#' @export
 
 plot_pca <- function(tpm, col_anno, color_col, shape_col=NULL, text_col=NULL, point_size=5, plot_file=""){
 
